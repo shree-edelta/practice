@@ -2,7 +2,7 @@ dict = {1:'I',2:'II',3:'III',4:'IV',5:'V',6:'VI',7:'VII',8:'VIII',9:'IX',10:'X',
 
 num = int(input("Enter a number: "))
 
-if num <= 1 and num >= 3999:
+if num <= 1 and num > 4000:
     print("Enter a number between 1 and 3000")
 else:
     reverse_dict = sorted(dict, reverse=True)

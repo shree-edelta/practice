@@ -1,9 +1,8 @@
-num = 1
-n=10
-for i in range(10):
+# num = 1
+for i in range(1,4):
     print(num)
     num= num*10+(i+1)
-    print(num)
+    
     
     
     
